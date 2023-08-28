@@ -20,7 +20,7 @@ public class dd {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		Reporter.log("Opening expected site", true);
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.flipkart.com");
 	}
 }
 
